@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damiano Zangrilli - Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="marchio.svg" sizes="any">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="Homepage">
+    <nav class="Navigation">
+        <div class="Nav_link">
+            <a id="Actual_page" class="Nav_text" href="#home">
+                <div class="home-icon"></div>
+                <span class="nav-label">Home</span>
+            </a>
+            <a class="Nav_text" href="Work.html">
+                <div class="work-icon"></div>
+                <span class="nav-label">Work</span>
+            </a>
+            <a class="Nav_text" href="contatti.html">
+                <div class="contatti-icon"></div>
+                <span class="nav-label">Contatti</span>
+            </a>
+            <a class="Nav_text" href="about.html">
+                <div class="about-icon"></div>
+                <span class="nav-label">About</span>
+            </a>
+        </div>
+    </nav>
+    <div class="container_hero_identity">
+        
+        <div class="damiano_zangrilli"></div>
+
+    </div>
+    <div class="other_info"> 
+        <div class="container_info_text">       <p class="info_text"> DIGITAL PRODUCT DESIGNER
+</p> <div class="container_position"><p class="info_text" id="smaller_info_textarea">PRESSO CATANIA</p> <div class="position"></div></div> </div>
+ 
+
+
+<p class="info_text" id="right_text">2026 ©</p></div>
+        <div class="cursor"></div>
+ 
+    <div id="container"></div>
+    
+    <!-- Video elementi (nascosti, usati come texture) -->
+    <video id="videoSfondo" loop muted playsinline crossorigin="anonymous" style="display: none;">
+        <source src="videos/sfondo.mp4" type="video/mp4">
+    </video>
+    
+    <canvas></canvas>
+
+    <script src="smoke.js"></script>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>   
+<script src="transition.js"></script>
+<script src="cursor.js"></script>
+</body>
+</html>
