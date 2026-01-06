@@ -23,7 +23,7 @@ let mouse_alt = new THREE.Vector2();
 let targetRotation_alt = new THREE.Vector2(0, 0);
 
 // Configurazioni Posizione
-let sphereSize_alt = 0.8;
+let sphereSize_alt = 0.7;
 let centerY = 0;        // Posizione attiva
 let hiddenY = -7;     // Posizione "in basso" (dormiente)
 let currentBaseY = hiddenY; // La Y base attuale (senza fluttuazione)
@@ -420,3 +420,4 @@ function checkAltHover() {
 // Start
 
 window.addEventListener("DOMContentLoaded", initAltSphere);
+
