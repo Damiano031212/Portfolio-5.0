@@ -266,7 +266,8 @@ button, input, textarea, select, label {
     background-size: contain;
 }
 #myfitnesspal_foto{
-  background: url(mockup_verso_bicchiere.png) no-repeat center;
+  background: url(mfp_photo.png) no-repeat center;
+  background-size: contain;
 }
 #verso_mockup_bicchiere{
     background: url(mockup_verso_bicchiere.png) no-repeat center;
@@ -706,13 +707,13 @@ body.animate #verso_mockup_bicchiere {
     
 }
 #sparkmind_bg{
-    background-color: #ffffff00;
     
     transform: translateY(0px);
     transition: transform 1s ease;
     }
 #sparkmind_photo{
-    background-image: url("sparkmind_photo.png") no-repeat center;
+    background: url(sparkmind_photo.png) no-repeat center;
+    background-size: contain;
     
     transform: scale(1.5);
     opacity: 0;
@@ -1042,6 +1043,3 @@ a {
     cursor: none !important; /* Mantiene coerente il cursore custom */
 
 }
-
-
-
