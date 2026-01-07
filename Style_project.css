@@ -265,7 +265,7 @@ button, input, textarea, select, label {
     height: 893px;
     background-size: contain;
 }
-.myfitnesspal_foto{
+#myfitnesspal_foto{
   background: url(mockup_verso_bicchiere.png) no-repeat center;
 }
 #verso_mockup_bicchiere{
@@ -1042,5 +1042,6 @@ a {
     cursor: none !important; /* Mantiene coerente il cursore custom */
 
 }
+
 
 
