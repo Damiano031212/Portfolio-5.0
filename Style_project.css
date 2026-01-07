@@ -709,7 +709,7 @@ body.animate #verso_mockup_bicchiere {
     transition: transform 1s ease;
     }
 #sparkmind_photo{
-    background-image: url("sparkmind_photo.png");
+    background-image: url("sparkmind_photo.png") no-repeat center;
     
     transform: scale(1.5);
     opacity: 0;
@@ -1039,3 +1039,4 @@ a {
     cursor: none !important; /* Mantiene coerente il cursore custom */
 
 }
+
