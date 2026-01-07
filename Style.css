@@ -337,6 +337,7 @@ button, input, textarea, select, label {
     color: #ffffff;
     padding-left: 54px;
     margin: 0;
+    white-space: nowrap;
 }
 #right_text{
     width: fit-content;
@@ -358,4 +359,5 @@ button, input, textarea, select, label {
 }
 #smaller_info_textarea{
     width: fit-content;
+
 }
